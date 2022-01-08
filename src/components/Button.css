@@ -1,0 +1,37 @@
+:root {
+    --bg-button: #f0f0f0;
+    --border-button: solid 1px #888
+}
+
+.button {
+    width: 60px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    border-radius: 2px;
+}
+
+.button:active {
+    background-color: #ccc 
+}
+
+.buttonAC {
+    width: 180px;
+}
+
+.button0 {
+    width: 120px;
+}
+
+.button.operation {
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.button.operation:active {
+    background-color: #fa8231cc
+}

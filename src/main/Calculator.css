@@ -1,0 +1,6 @@
+.calculator {
+    display: flex;
+    max-width: 240px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
